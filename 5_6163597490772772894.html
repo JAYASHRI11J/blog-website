@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr.Kitchen</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      line-height: 100%;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+      background-color: #e9e9e9;
+    }
+
+    .header h1 {
+      color: #222222;
+      font-size: 30px;
+      font-family: "Pacifico", cursive;
+    }
+
+    .header .social a {
+      padding: 5px;
+      color: #222222;
+    }
+
+    .left {
+      float: left;
+      width: 180px;
+      margin: 0;
+      padding: 1em;
+    }
+
+    .content {
+      margin-left: 100px;
+      border-left: 1px solid #d4d4d4;
+      padding: 1em;
+      overflow: hidden;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #29292a;
+      color: white;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin:  0;
+    }
+
+    td,
+    th{
+      border: 1px solid #dddddd;
+      padding: 8px;
+    }
+
+    tr:nth-child(1) {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    tr td i.fas {
+      display: block;
+      font-size: 35px;
+      text-align: center;
+    }
+
+    .footer {
+      padding: 0px;
+      margin: 0px;
+      background-color: grey;
+      background-size: cover;
+      background-attachment: fixed;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Mr.Kitchen <img src="https://b.zmtcdn.com/data/pictures/0/19612060/da90ea17342435d9a97b4183b0b9913b_featured_v2.jpg" height="25px" width="25px" /></h1>
+      <div class="social">
+        <p>Follow us<a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a></p>
+      </div>
+    </header>
+    <aside class="left">
+      <img src="https://b.zmtcdn.com/data/pictures/0/19612060/da90ea17342435d9a97b4183b0b9913b_featured_v2.jpg" width="180px" />
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#career">About</a></li>
+        <li><a href="#contact">Help Support</a></li>
+        <li><a href="#about">Contact</a></li>
+        <li><drop><a href="#about">Recipe categories </drop></a></li>
+      </ul>
+      <br><br>
+      <p>"Do something important in life.  Part of the secret to success in life is to eat what you like."<br><b>- Mr.Kitchen</b></p>
+    </aside>
+    <main class="content">
+      <h2>About Us</h2>
+      <p>Food blogging is a feature of food journalism interlinking a gourmet interest in food, blog writing, and food photography. Food blogs are generally written by food enthusiasts often referred to as a “foodies” and can be used commercially by the blogger to earn a profit.</p>
+      <h2>Our Career</h2>
+      <p>To make an individual yo cook perfect dish every time!Our easy and fail-proof recipes deliver authentic flavours using modern and innovative techniques...!</p>
+      <hr><br>
+      <h2>Ways to Help You &#128073 </h2>
+      <table>
+        <tr>
+          <th>Biryani</th>
+          <th>Brinji</th>
+          <th>Ambur biryani</th>
+        </tr>
+        <tr>
+          <td><img src="https://c.ndtvimg.com/2022-04/fq5cs53_biryani-doubletree-by-hilton_625x300_12_April_22.jpg" width="150px" /></td>
+          <td><img src="https://www.jeyashriskitchen.com/wp-content/uploads/2022/05/IMG_5400.jpg" width="150px" /></td>
+          <td><img src="https://tastyappetite.net/static/4f7b40b23b6c1ff9c51093b7ff2b8281/2244e/5849edfc56ca6eaee50eb3eee1042573.jpg" width="150px" /></td>
+        </tr>
+        <tr>
+          <td><button> click to know more</button></td>
+          <td><button> click to know more</button></td>
+          <td><button> click to know more</button></td>
+        </tr>
+        <tr>
+      </table>
+    <footer class="footer">© Copyright Mr.Kitchen</footer>
+  </div>
+</body>
+
+</html>
